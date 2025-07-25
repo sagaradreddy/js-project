@@ -1,0 +1,7 @@
+.box {
+  display: inline;
+  width: 100px; /* Won't work */
+  height: 50px; /* Won't work */
+  padding: 10px; /* Works but won’t push other elements */
+  border: 2px solid red; /* Visible but does not push surrounding text */
+}
